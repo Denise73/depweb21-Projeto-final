@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../IMG/Header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #ffffff;
+}
+.ulnav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding-left: 750px;
+    padding-top: 150px;  
+}
+.linknav{
+    color:antiquewhite;
+    font-weight: bolder;
+}
+.embrulho{
+    width: 100vw;
+    height: 1100px; 
+}
+#textos{
+    color:#0883c8;
+    font-weight: 900;
+    font-size: xx-large;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+}
+#caixas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.caixa{
+    background-color: rgb(241, 240, 240);
+    color:#0883c8;
+    font-weight: 900;
+    font-size: x-large;
+    width: 800px;
+    height: 430px;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+footer{
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../IMG/Footer2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+}
+.titulofooter{
+    width: 30%;
+    padding-left: 780px;
+    padding-top: 20px;  
+}
+.caixafooter{
+    color:#3c1dda;
+    font-weight: 700;
+    font-size: medium;
+    width: 450px;
+    height: 100px;
+    padding-left: 500px;
+    padding-top: 60px;  
+    text-align: Center;
+}
+.linkaempresa{
+    color: #6ba8df;
+    font-size: x-small;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 800px;
+    padding-top: 20px; 
+}
+.sectionfooter{
+    list-style-type: none;
+    display: block;
+    justify-content: space-between;
+    width: 45%;
+    padding-left: 750px;
+    padding-top: 180px;
+}
+.contatowhats{
+    color:#4b599a;
+    font-size: 100%;
+}
+.iconewhats{
+    color: #68e43d;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.localizacao{
+    color: #4b5994;;
+    font-size: x-small;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+.variosicones{
+    font-size: medium;
+    display: block;
+    flex-direction: row;
+}
+
+   
